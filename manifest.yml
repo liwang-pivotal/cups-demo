@@ -1,0 +1,7 @@
+---
+applications:
+- name: cups
+  random-route: true
+  path: target/cups-0.0.1-SNAPSHOT.jar
+  services:
+  - test-cups
